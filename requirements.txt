@@ -9,7 +9,7 @@ langchain-huggingface==0.0.3
 # ── Local model runtime (NO separate app needed — runs in this process) ──
 transformers==4.44.2
 sentence-transformers==3.0.1
-torch==2.6.0                      # CPU build; runs the LLM and the embeddings
+torch==2.4.1                      # CPU build; runs the LLM and the embeddings
 accelerate==0.33.0                # speeds up local model loading/inference
 
 # ── Vector store ─────────────────────────────────────────
